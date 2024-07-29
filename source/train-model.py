@@ -11,7 +11,7 @@ with open(text_file_path, 'r', encoding='utf-8') as file:
 # Step 2: Create a Hugging Face dataset from the text
 dataset = Dataset.from_dict({'text': [corpus]})
 
-model_file_path = os.path.abspath('~/.ollama/models/blobs/sha256:6a0746a1ec1aef3e7ec53868f220ff6e389f6f8ef87a01d77c96807de94ca2aa')
+model_file_path = os.path.expanduser('~/.ollama/models/blobs/sha256:6a0746a1ec1aef3e7ec53868f220ff6e389f6f8ef87a01d77c96807de94ca2aa')
 print(f"Full path of the model: {model_file_path}")
 # Step 3: Load the tokenizer and model
 tokenizer = LlamaTokenizer.from_pretrained(model_file_path)
