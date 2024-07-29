@@ -1,0 +1,7 @@
+output/*
+!output/readme.md
+
+temp/*
+!temp/readme.md
+
+.DS_Store
