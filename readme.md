@@ -11,10 +11,12 @@ The idea here is to experiment how I can use LLama3 to train it on data of my ow
 
 ## Prequisites
 
-* Install latest python3 (this was developed against `v3.12.4`)
+* Install latest [python3](https://www.python.org/downloads/) (this was developed against `v3.12.4`)
+* Install [Ollama])(https://ollama.com/)
 
 ## Flow 1: Train from Markdown Files
 
 1. [Manual] Copy any markdown files into the `learning-data/` folder.
 2. [Script] Transform all markdown files into a single text file for easy consumption.
-
+  * `cd source/`
+  * `python3 convert-markdown-to-text.py`
