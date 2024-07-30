@@ -33,3 +33,8 @@ The idea here is to experiment how I can use LLama3 to train it on data of my ow
 # Resources
 
 * https://llama.meta.com/docs/llama-everywhere/running-meta-llama-on-mac/
+* https://github.com/meta-llama/llama-recipes/tree/main/recipes/quickstart
+* https://github.com/meta-llama/llama-recipes/tree/main/recipes/quickstart/RAG
+* https://github.com/meta-llama/llama-recipes/tree/main/recipes/quickstart/finetuning
+* https://github.com/meta-llama/llama-recipes/tree/main/recipes/use_cases
+* https://python.langchain.com/v0.1/docs/modules/data_connection/document_loaders/json/
